@@ -1,0 +1,740 @@
+/*
+* @Author: Marte
+* @Date:   2018-10-11 15:10:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-12-29 10:32:18
+*/
+body{
+    background:transparent;
+}
+.container-wrap{
+    width:100%;
+}
+.sl{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.navbar-header span{
+    font-size:24px;
+}
+.container-wrap img{
+    width:100%;
+}
+.container-wrap .navatics-first{
+    width:100%;
+    position:relative;
+    display:flex;
+    align-items:center;
+    align-content:center;
+    flex-direction:column;
+}
+
+// 中间导航
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+
+.nav-bar{
+    height:0.96rem;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-left:0.32rem;
+    padding-right:0.62rem;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          display:flex;
+          justify-content:space-between;
+}
+.nav-bar a{
+    font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.96rem;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.navatics-first .description{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:60%;
+    transform: translate(-50%,-50%);
+    line-height:0.48rem;
+    font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.icon-zone{
+    padding:16px 0;
+    background:#fff;
+    overflow:hidden;
+}
+.icon-zone .icon-box{
+    width:50%;
+    float:left;
+    height:136px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    overflow:;hidden;
+}
+.icon-zone .icon-box span{
+    font-size:0.96rem;
+    color:gba(0, 0, 0, 0.85);
+    margin-bottom:0.08rem;
+}
+.icon-box h6{
+    width:100%;
+    text-align:center;
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+}
+.navatics-png{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    background:#fff;
+}
+.navatics-png img{
+    margin-top:1.92rem;
+    margin-bottom:0.64rem;
+
+}
+.navatics-png .bt{
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+}
+.navatics-png p{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    width:100%;
+    text-align:center;
+
+}
+.navatics-png .last{
+    margin-bottom:1.92rem;
+}
+.param{
+    background-color: #262626;
+    padding-top:40px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.param .param-info{
+    width:83.2%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-content: flex-start;
+}
+.param-info h6{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:40px;
+    letter-spacing: normal;
+    color: #ffffff;
+    width:100%;
+    margin: 0;
+}
+.param-info p{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:24px;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top:16px;
+    margin-bottom:16px;
+}
+.param-info img{
+    width:100%;
+    margin-bottom:72px;
+}
+
+
+// 视频处理播放
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+
+.container-wrap .video-zone img.play-btn{
+    width:1.28rem;
+    position: absolute;
+    top:6.04rem;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.video-zone span{
+    position: absolute;
+    top:7.8rem;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:24px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.video-zone h6{
+    position: absolute;
+    left:50%;
+    bottom:1.16rem;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.video-zone .video-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+       -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+         -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            display:none;
+
+}
+
+.fix-nav-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+}
+
+
+/*
+产品介绍  第一屏
+ */
+.navatics-first{
+    background:#F2F2F2;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    padding-top:1.11rem;
+    box-sizing:border-box;
+    height:10.16rem;
+}
+.productview-first .img-view{
+    width:4.7rem;
+    position:absolute;
+    top:.83rem;
+
+}
+.navatics-first .biaoti{
+    font-size:0.24rem;
+    font-weight:500;
+    color:rgba(0,0,0,1);
+    line-height:0.4rem;
+    position:absolute;
+    top:2.46rem;
+    color:#fff;
+    margin:0;
+}
+.navatics-first .des-info{
+    font-size:0.16rem;
+    font-weight:300;
+    color:rgba(255,255,255,1);
+    line-height:.32rem;
+    position:absolute;
+    top:2.86rem;
+}
+
+.navatics-first .green-car{
+    width:100%;
+    margin-top:1.04rem;
+    margin-bottom:0.6rem;
+}
+.navatics-first .bg-img{
+    position:absolute;
+    top:0;
+    height:100%;
+}
+/*
+ICON图标区域
+ */
+.canshu-view{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:.32rem  .44rem;
+    box-sizing:border-box;
+    flex-wrap:wrap;
+    background:rgba(227,232,235,1);
+}
+.canshu-view .canshu-items{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction:column;
+    width:50%;
+    height:1.6rem;
+    margin-bottom:.16rem;
+}
+.canshu-items .canshu-icon{
+    font-size:.64rem;
+    color:#000;
+    line-height:.48rem;
+}
+.canshu-items  .icon-des{
+    font-size:0.24rem;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:0.33rem;
+}
+
+/*
+感受F1赛车手的肾上腺素飙升
+ */
+.cjs-view {
+    height:5.51rem;
+}
+.cjs-view .f1-img{
+    position:absolute;
+    width:100%;
+    top:0;
+    height:100%;
+}
+.productview-first .biaoti-cj{
+    font-size: 0.4rem;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:.72rem;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin:0;
+    position:absolute;
+    top:.65rem;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: .65rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.cjs-view .des-info{
+    width:100%;
+    font-size:.24rem;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.85);
+    position:absolute;
+    top:1.5rem;
+    margin-top:0.16rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cjs-view img{
+    width:100%;
+}
+
+.productview-first{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    position:relative;
+}
+
+/*
+留住第一视角精彩瞬间
+ */
+.tiedi-view{
+    height:3.46rem;
+}
+.tiedi-view .biaoti-cj{
+    font-size:.24rem;
+}
+/*
+800视距图传
+ */
+.tc-view .botoom-title{
+    display:flex;
+    align-content: center;
+    justify-content:space-between;
+}
+
+/*
+l两张图片
+ */
+.tc-view{
+    display:flex;
+    justify-content:space-between;
+    align-content: center;
+    flex-direction:row;
+
+}
+.tc-view img{
+   width:50%;
+}
+
+
+/*
+星光全彩夜视镜头
+ */
+.xg-view{
+    height:7.54rem;
+}
+
+/*
+超视距图像/信号传输
+ */
+.csj-view{
+    height:9.17rem;
+}
+.csj-view .biaoti-cj{
+    color:#fff;
+}
+.csj-view .des-info{
+    width:77%;
+    color:#fff;
+}
+.csj-view .sc-img{
+    position:absolute;
+    bottom:0;
+    width:5.4rem;
+}
+
+/*
+SENSETOUCH遥控器的全触控创新和软件设计巧思，带来更佳的FPV驾驶操控体验
+ */
+.touch-view{
+    height:8.98rem;
+    background:rgba(227,232,235,1);
+}
+.touch-view .wenzi-wrap{
+    position:absolute;
+    top:1.22rem;
+    width:61%;
+    font-size:.24rem;
+    font-weight:400;
+    color:rgba(0,0,0,0.85);
+    line-height:.33rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.touch-view .sc-surf{
+    position:absolute;
+    bottom:0;
+    width:5.68rem;
+    height:5.07rem;
+}
+
+/*
+仿真4WD高速跑车
+ */
+.wd-view{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    background:#000;
+    padding-top:1.11rem;
+    padding-bottom:.68rem;
+}
+.wd-view .bt{
+    font-size:.4rem;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:.56rem;
+}
+.wd-view .wenzi-wrap{
+    font-size:.16rem;
+    font-weight:400;
+    color:rgba(255,255,255,0.85);
+    line-height:.32rem;
+}
+.wd-view .peijian-canshu{
+    width:6.5rem;
+    margin-top:.89rem;
+}
+.peijian-canshu .canshu-view{
+    display:flex;
+    justify-content:space-between;
+    align-content: center;
+}
+.peijian-canshu .cs-view{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+}
+
+.peijian-canshu .cs-view:nth-child(1){
+    height:3.02rem;
+}
+
+.peijian-canshu .cs-view:nth-child(1) img{
+    width:2.59rem;
+    height:3.02rem;
+}
+.peijian-canshu .cs-view:nth-child(2){
+    margin:1.36rem 0;
+}
+.peijian-canshu .cs-view:nth-child(2) img{
+    width:4.21rem;
+    height:2.11rem;
+}
+.peijian-canshu .cs-view:nth-child(3) img{
+    width:2.74rem;
+    height:3.02rem;
+}
+.cs-view .right-wenzi{
+    flex-grow:1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+
+}
+.cs-view .right-wenzi p{
+    font-size:.16rem;
+    font-weight:400;
+    color:rgba(255,255,255,0.85);
+    line-height:.36rem;
+}
+
+.cs-view .right-wenzi span{
+    font-size:.16rem;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:.36rem;
+}
+/*
+前后防撞杆：柔韧性强，强悍防撞
+ */
+.cj-view{
+    height:7rem;
+    width:100%;
+    padding-top:1.52rem;
+    background:rgba(227,232,235,1);
+
+
+}
+.cj-view img{
+    width:6.62rem;
+    height:3.52rem;
+}
+.cj-view .wenzi-wrap{
+    font-size:.16rem;
+    font-weight:400;
+    color:rgba(0,0,0,0.85);
+    line-height:.32rem;
+    margin-top:.48rem;
+
+}
+/*
+more cars
+ */
+
+.morecar-view{
+    background:linear-gradient(360deg,rgba(67,67,67,1) 0%,rgba(32,32,32,1) 100%);
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    padding-top:0.72rem;
+    padding-bottom:.94rem;
+}
+
+.self-car{
+    width:100%;
+}
+
+.morecar-view .chedeng{
+    font-size:.16rem;
+    font-weight:400;
+    color:rgba(255,255,255,0.85);
+    line-height:.32rem;
+}
+.duocar{
+    width:6.81rem;
+    height:2.25rem;
+    margin-top:1.19rem;
+    margin-bottom:.19rem;
+}
+/*
+GPS模块精准定位 实现户外多人赛车游戏
+ */
+
+.morepeople-view{
+    height:8.15rem;
+}
+.morepeople-view .bg-people{
+    width:100%;
+    position:top;
+    top:0;
+    height:100%;
+}
+
+.people-bgg{
+    display:flex;
+    align-items: center;
+    position:absolute;
+    top:1.01rem;
+    left:.58rem;
+    height:6.13rem;
+    width:6.2rem;
+}
+.people-bgg img{
+    width:3.41rem;
+    height:6.13rem;
+}
+.people-bgg h4{
+    width:2.4rem;
+    font-size:.24rem;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+
+}
+.people-bgg .wenzi-des{
+    display:flex;
+    align-items: center;
+}
+/*
+游戏体验
+ */
+.yx-view{
+    height:7.61rem;
+    background:#E3E8EB;
+    padding-top:.38rem;
+    padding-bottom:.64rem;
+}
+.yx-view img{
+    width:5.24rem;
+    margin-bottom:.64rem;
+}
+.yx-view .wenzi-wrap{
+    font-size:.24rem;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:.33rem;
+    text-align:center;
+}
+
+/*
+规格参数
+ */
+.canshu-view1{
+    width:85%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:0 auto;
+    padding-bottom:.24rem;
+    padding-top:.64rem;
+}
+.canshu-view1 .gg-title{
+    font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom:.63rem;
+}
+.canshu-info{
+    display:flex;
+    flex-direction:flex-start;
+    width:100%;
+    height:0.48rem;
+}
+.canshu-info .biaoti{
+    width:1rem;
+    margin:0;
+    padding:0;
+    line-height:.5rem;
+}
+.canshu-detail{
+    flex-grow:1;
+    display:flex;
+    align-items: center;
+    margin-left:0.5rem;
+
+}
+.canshu-detail span{
+
+    font-size: .16rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: .48rem;
+  letter-spacing: normal;
+
+}
+.canshu-detail span:nth-child(1){
+     color: rgba(0, 0, 0, 0.45);
+     width:2.3rem;
+}
+.canshu-detail span:nth-child(2){
+      color: rgba(0, 0, 0, 0.85);
+      flex-grow:1;
+}
+.canshu-view1 .canshu-info-bt{
+    margin-top:0.48rem;
+
+}
+

@@ -1,0 +1,291 @@
+/*
+* @Author: Marte
+* @Date:   2018-01-09 14:36:16
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-12-29 09:45:39
+*/
+// header start
+-webkit-tap-highlight-color: rgba(255,255,255,0);
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+
+#wb_tabs{
+    width: 100%;
+    height:0.96rem;
+    top:0;
+    padding:0 0.32rem;
+    z-index: 99999999999;
+    over-flow-y:hidden;
+    background:#000;
+
+}
+
+ .manu{
+    font-size:24px;
+    width:0.64rem;
+    float:left;
+    color:#fff;
+}
+ .fhimg{
+    height:0.64rem;
+    width:0.64rem;
+    float:left;
+}
+ .logo{
+    flex-grow:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    float:left;
+    height:100%;
+}
+ .logo img{
+    width:2.32rem;
+    height:100%;
+
+}
+ .close{
+    height:0.64rem;
+    width:0.64rem;
+    display:none;
+    position:absolute;
+    right:0;
+}
+// 二级菜单
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+.navbar-content{
+    position: absolute;
+    top: 0.96rem;
+    left:0;
+    background:#fff;
+    width: 100%;
+    background-color: #fff;
+    transition: all .4s;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 100;
+    display:none;
+
+}
+// 展开添加的类
+.manuactive{
+    opacity: 1;
+    visibility: visible !important;
+    z-index: 200;
+    height:auto;
+    position: absolute;
+    top: 0.96rem;
+    left:0;
+    background:#fff;
+    width: 100%;
+    transition: all .4s;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+// Remote Controls type
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+
+.navbr-group-menu{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 0.96rem;
+    transition: left .4s;
+    left: 100%;
+    z-index: 800;
+}
+.navbr-group-menu a{
+    display:inline-block;
+    height:1.2rem;
+    width:100%;
+    font-size:16px;
+    color:#1c1c1c;
+    text-align:left;
+    line-height:1.2rem;
+    font-weight: 600;
+    border-bottom:1px solid #dfdfdf;
+
+}
+.navbar-group-active{
+    background:#ced7de;
+}
+
+.navbr-manu li{
+    padding-left:0.96rem;
+    box-sizing:border-box;
+
+}
+.navbr-manu li a h4{
+    font-weight:normal;
+    font-size:14px;
+}
+.navbr-manu li .coming{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+.navbr-manu li .coming span{
+    color:#999;
+    font-weight:normal;
+    font-size:12px;
+}
+// 二级菜单项
+.manu-box{
+    list-style: none;
+
+}
+.manu-box li{
+    list-style: none;
+    height:1.2rem;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    align-items:cener;
+    justify-content:space-around;
+    border-bottom:1px solid #dfdfdf;
+}
+.manu-box li a{
+    position: relative;
+    right: 0;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    z-index: 700;
+    transition: all .4s;
+    display:flex;
+    justify-content: space-between;
+    padding-left:0.32rem;
+    padding-right:0.32rem;
+    box-sizing:border-box;
+    color:#1c1c1c;
+    align-items: center;
+    text-decoration: none;
+}
+.manu-box li a h4{
+    line-height:1.2rem;
+}
+.manu-box li a img{
+    width:0.48rem;
+    height:0.48rem;
+    vertical-align:center;
+    margin-top:0.36rem;
+    font-size: 16px;
+   font-weight: 600;
+   color:#1c1c1c;
+}
+
+
+/*
+    样式开始
+ */
+// header end
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+.navbar-header{
+    position:relative;
+    height:100%;
+    display:flex;
+    flex-direction:spoace-around;
+    align-items:center;
+}
+.navbar-header .manu{
+    position: absolute;
+    left:0;
+    line-height: .96rem;
+}
+.navbar-header .close{
+    position: absolute;
+    right:16px;
+}
+
+
+/*
+二级菜单样式
+ */
+#menu-category{
+    width: 100%;
+    height:auto;
+    top:0;
+    padding:0 0.32rem;
+    z-index: 99999999999;
+    position:fixed;
+    height:100%;
+    height:100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:#1E1E1E;
+    overflow-y:scroll;
+    display:none;
+}
+.menu-wrap{
+    height:100%;
+    width:100%;
+    flex-direction:column;
+    align-items:center;
+}
+.navbar-header{
+    height:.96rem;
+    dlsplay:flex;
+    justify-content:space-around;
+    align-items:center;
+    over-flow:hidden;
+    width:100%;
+}
+.menu-category .menu-wrap .navbar-header .close-btn{
+    font-size:40px;
+    font-weight:600px;
+    color:#D8D8D8;
+}
+.er-ji{
+    flex-grow:1;
+    background:#1E1E1E;
+    padding:0 .16rem;
+    width:100%;
+}
+.erji-items .items-title{
+    width:100%;
+    height:0.98rem;
+    font-size:18px;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    line-height:0.98rem;
+    margin:0;
+    padding:0;
+}
+.items-img{
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.items-img>a{
+    width:33%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom:.37rem;
+}
+.items-img>a img{
+    width:1.8rem;
+}
+.items-img>a .items-des{
+    font-size:14px;
+    font-weight:400;
+    color:#8F8F8F;
+    line-height:.4rem;
+    margin-top:.17rem;
+}

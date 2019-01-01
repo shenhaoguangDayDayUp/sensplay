@@ -1,0 +1,99 @@
+/*
+* @Author: Marte
+* @Date:   2018-12-20 10:28:53
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-12-29 11:03:06
+*/
+.container-wrap{
+    width:100%;
+    height:9.63rem;
+    position:relative;
+}
+.container-wrap img{
+    width:100%;
+    height:9.63rem;
+}
+.container-wrap .img-title{
+    position:absolute;
+    left:50%;
+    top:1rem;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            width:4.82rem;
+            height:1.09rem;
+
+}
+.container-wrap .top-des{
+    font-size: .24rem;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    position:absolute;
+    top:2.48rem;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.container-wrap .bottom-des{
+    position:absolute;
+    bottom:2.34rem;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-between;
+}
+.container-wrap .bottom-des .bottom-img{
+    width:4.87rem;
+    height:.85rem;
+}
+.bottom-dess{
+    display:flex;
+    width:4.87rem;
+    justify-content:space-between;
+    align-items: center;
+    height:.59rem;
+    margin-top:.32rem;
+}
+.bottom-dess .xian{
+    width: 1.11rem;
+    height: 1px;
+    background: #5db2fd;
+}
+.bottom-dess .bottom-title{
+     font-size: 0.42rem;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #007aff;
+}
+
+.bottom-des span{
+    width:3.45rem;
+    font-size: .24rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.85);
+    margin-top:.38rem;
+}

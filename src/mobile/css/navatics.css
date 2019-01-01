@@ -1,0 +1,295 @@
+/*
+* @Author: Marte
+* @Date:   2018-10-11 15:10:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-12-19 18:23:35
+*/
+.container-wrap{
+    width:100%;
+}
+.sl{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.navbar-header span{
+    font-size:24px;
+}
+.container-wrap img{
+    width:100%;
+}
+.container-wrap .navatics-first{
+    width:7.5rem;
+    position:relative;
+}
+.navatics-first .biaoti{
+    position:absolute;
+    transform: translateX(-50%);
+    left:50%;
+    top:1.76rem;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.96;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.navatics-first .des{
+    position:absolute;
+    top:3rem;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.navatics-first .bottom-des{
+    position:absolute;
+    bottom:1.12rem;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+// 中间导航
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+
+.nav-bar{
+    height:0.96rem;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-left:0.32rem;
+    padding-right:0.62rem;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          display:flex;
+          justify-content:space-between;
+}
+.nav-bar a{
+    font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.96rem;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.navatics-first .description{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:60%;
+    transform: translate(-50%,-50%);
+    line-height:0.48rem;
+    font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.icon-zone{
+    padding:16px 0;
+    background:#fff;
+    overflow:hidden;
+}
+.icon-zone .icon-box{
+    width:50%;
+    float:left;
+    height:136px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    overflow:;hidden;
+}
+.icon-zone .icon-box span{
+    font-size:0.96rem;
+    color:gba(0, 0, 0, 0.85);
+    margin-bottom:0.08rem;
+}
+.icon-box h6{
+    width:100%;
+    text-align:center;
+    font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+}
+.navatics-png{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    background:#fff;
+}
+.navatics-png img{
+    margin-top:1.92rem;
+    margin-bottom:0.64rem;
+
+}
+.navatics-png .bt{
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.85);
+}
+.navatics-png p{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    width:100%;
+    text-align:center;
+
+}
+.navatics-png .last{
+    margin-bottom:1.92rem;
+}
+.param{
+    background-color: #262626;
+    padding-top:40px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.param .param-info{
+    width:83.2%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-content: flex-start;
+}
+.param-info h6{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:40px;
+    letter-spacing: normal;
+    color: #ffffff;
+    width:100%;
+    margin: 0;
+}
+.param-info p{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:24px;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top:16px;
+    margin-bottom:16px;
+}
+.param-info img{
+    width:100%;
+    margin-bottom:72px;
+}
+
+
+// 视频处理播放
+.clearfix:before, .container:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+/* IE 6/7 */
+.clearfix { zoom: 1; }
+
+.container-wrap .video-zone img.play-btn{
+    width:1.28rem;
+    position: absolute;
+    top:6.04rem;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.video-zone span{
+    position: absolute;
+    top:7.8rem;
+    left:50%;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:24px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.video-zone h6{
+    position: absolute;
+    left:50%;
+    bottom:1.16rem;
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.video-zone .video-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+       -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+         -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            display:none;
+
+}
+
+.fix-nav-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+}
