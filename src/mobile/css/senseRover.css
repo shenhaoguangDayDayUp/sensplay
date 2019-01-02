@@ -974,10 +974,11 @@ sensetouch
     height:0.48rem;
 }
 .canshu-info .biaoti{
-    width:1rem;
+    width:1.2rem;
     margin:0;
     padding:0;
     line-height:.5rem;
+    font-size: 0.1rem
 }
 .canshu-detail{
     flex-grow:1;
@@ -998,7 +999,7 @@ sensetouch
 }
 .canshu-detail span:nth-child(1){
      color: rgba(0, 0, 0, 0.45);
-     width:2.3rem;
+     width:2.8rem;
 }
 .canshu-detail span:nth-child(2){
       color: rgba(0, 0, 0, 0.85);
