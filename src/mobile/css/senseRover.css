@@ -753,7 +753,7 @@
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
-    letter-spacing: -0.2px;
+    letter-spacing: -1px;
     color: #818181;
 }
 
@@ -870,7 +870,7 @@ sensetouch
     width:100%;
     display:flex;
     align-items: center;
-    height:1.03rem;
+    height:1.9rem;
     margin-top:.33rem;
     margin-bottom:0.9rem;
     justify-content:space-between;
